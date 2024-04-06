@@ -1,0 +1,4 @@
+aliyun-log-cpp-sdk provides CMake targets:
+
+find_package(aliyun_log REQUIRED)
+target_link_libraries(main PRIVATE aliyun_log::aliyun_log)
